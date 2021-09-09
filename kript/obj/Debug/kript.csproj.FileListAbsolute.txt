@@ -1,0 +1,7 @@
+C:\Users\zatol\source\repos\kript\kript\bin\Debug\kript.exe.config
+C:\Users\zatol\source\repos\kript\kript\bin\Debug\kript.exe
+C:\Users\zatol\source\repos\kript\kript\bin\Debug\kript.pdb
+C:\Users\zatol\source\repos\kript\kript\obj\Debug\kript.csproj.AssemblyReference.cache
+C:\Users\zatol\source\repos\kript\kript\obj\Debug\kript.csproj.CoreCompileInputs.cache
+C:\Users\zatol\source\repos\kript\kript\obj\Debug\kript.exe
+C:\Users\zatol\source\repos\kript\kript\obj\Debug\kript.pdb

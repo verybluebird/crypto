@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kript", "kript\kript.csproj", "{D6ECC229-56EA-49F6-B76A-CC23EC053CCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6ECC229-56EA-49F6-B76A-CC23EC053CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6ECC229-56EA-49F6-B76A-CC23EC053CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6ECC229-56EA-49F6-B76A-CC23EC053CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6ECC229-56EA-49F6-B76A-CC23EC053CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {276D326B-A906-4CFD-A0BD-6F30887618BB}
+	EndGlobalSection
+EndGlobal
