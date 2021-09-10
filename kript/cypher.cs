@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
 
@@ -9,11 +8,11 @@ namespace kript
     {
         static void Main(string[] args)
         {
-            string key = null, text = null;
+            string key = null, text = null, en_text = null;
             readFiles(ref key, ref text);
             formatText(ref text);
-            replace(ref key, ref text);
-            writeFiles(ref text);
+            replace(key, text, out en_text);
+            writeFiles(ref en_text);
         }
 
         static void readFiles(ref string key, ref string text) //читает ключ и шифруемый текст из файла
@@ -21,7 +20,7 @@ namespace kript
             Console.WriteLine("Enter filename of key and text: ");
             string[] Names = new string[2];
             //for (int i = 0; i < 2; i++)
-            //  Names[i] = Console.ReadLine();
+            //    Names[i] = Console.ReadLine();
             Names[0] = "key.txt";
             Names[1] = "text.txt";
 
@@ -63,22 +62,20 @@ namespace kript
             Console.WriteLine($"Текст: {text}");
 
         }
-        static void replace(ref string key, ref string text) //шифрует текст
+        static void replace(string key, string text, out string en_text) //шифрует текст
         {
+            en_text = "";
             char[] rus_low = { 'а', 'б', 'в', 'г', 'д', 'е', 'ё', 'ж', 'з', 'и', 'й', 'к', 'л', 'м', 'н', 'о', 'п', 'р', 'с', 'т', 'у', 'ф', 'х', 'ц', 'ч', 'ш', 'щ', 'ъ', 'ы', 'ь', 'э', 'ю', 'я' };
             char[] keys = key.ToCharArray();
-            for (int i = 0; i <= 32; i++)
-            {
-                text = text.Replace(rus_low[i], keys[i]);
-
-            }
+            foreach (var c in text)
+                en_text += keys[Array.IndexOf(rus_low, c)];
         }
 
-        static void writeFiles( ref string text)
+        static void writeFiles(ref string text)
         {
             string filename;
             Console.WriteLine("Enter filename to write: ");
-            filename=Console.ReadLine();
+            filename = Console.ReadLine();
             using (FileStream fstream = new FileStream(filename, FileMode.OpenOrCreate))
             {
                 // преобразуем строку в байты
@@ -88,7 +85,5 @@ namespace kript
                 Console.WriteLine("Текст записан в файл");
             }
         }
-
-
     }
 }
