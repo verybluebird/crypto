@@ -1,0 +1,16 @@
+C:\Users\zatol\source\repos\kript2\kript2\bin\Debug\net5.0\kript2.exe
+C:\Users\zatol\source\repos\kript2\kript2\bin\Debug\net5.0\kript2.deps.json
+C:\Users\zatol\source\repos\kript2\kript2\bin\Debug\net5.0\kript2.runtimeconfig.json
+C:\Users\zatol\source\repos\kript2\kript2\bin\Debug\net5.0\kript2.runtimeconfig.dev.json
+C:\Users\zatol\source\repos\kript2\kript2\bin\Debug\net5.0\kript2.dll
+C:\Users\zatol\source\repos\kript2\kript2\bin\Debug\net5.0\ref\kript2.dll
+C:\Users\zatol\source\repos\kript2\kript2\bin\Debug\net5.0\kript2.pdb
+C:\Users\zatol\source\repos\kript2\kript2\obj\Debug\net5.0\kript2.csproj.AssemblyReference.cache
+C:\Users\zatol\source\repos\kript2\kript2\obj\Debug\net5.0\kript2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zatol\source\repos\kript2\kript2\obj\Debug\net5.0\kript2.AssemblyInfoInputs.cache
+C:\Users\zatol\source\repos\kript2\kript2\obj\Debug\net5.0\kript2.AssemblyInfo.cs
+C:\Users\zatol\source\repos\kript2\kript2\obj\Debug\net5.0\kript2.csproj.CoreCompileInputs.cache
+C:\Users\zatol\source\repos\kript2\kript2\obj\Debug\net5.0\kript2.dll
+C:\Users\zatol\source\repos\kript2\kript2\obj\Debug\net5.0\ref\kript2.dll
+C:\Users\zatol\source\repos\kript2\kript2\obj\Debug\net5.0\kript2.pdb
+C:\Users\zatol\source\repos\kript2\kript2\obj\Debug\net5.0\kript2.genruntimeconfig.cache
